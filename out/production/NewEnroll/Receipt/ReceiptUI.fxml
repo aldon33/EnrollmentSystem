@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ReceiptAnchor" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Receipt.ReceiptController">
+    <Text layoutX="55.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Name: " />
+    <Text layoutX="55.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Program: " />
+    <Text layoutX="55.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Year: " />
+    <Text fx:id="givenName" layoutX="166.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="272.0" />
+    <Text fx:id="givenYearLevel" layoutX="166.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="318.0" />
+    <Text fx:id="givenProgram" layoutX="166.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="318.00000071525574" />
+    <Button layoutX="55.0" layoutY="329.0" mnemonicParsing="false" onAction="#back" text="Back" />
+    <Button fx:id="printReceipt" layoutX="334.0" layoutY="335.0" mnemonicParsing="false" onAction="#printReceipt" text="Print Receipt" />
+   <Label layoutX="44.0" layoutY="38.0" prefHeight="63.0" prefWidth="482.0" text="Checkout">
+      <font>
+         <Font name="Consolas" size="35.0" />
+      </font>
+   </Label>
+   <Text layoutX="55.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Courses: " />
+   <Text fx:id="givenCourse1" layoutX="166.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.79297018051147" />
+   <Text fx:id="givenCourse2" layoutX="166.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.79297018051147" />
+   <Text fx:id="givenCourse3" layoutX="166.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.79297018051147" />
+   <Text fx:id="givenCourse4" layoutX="166.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.79297018051147" />
+</AnchorPane>

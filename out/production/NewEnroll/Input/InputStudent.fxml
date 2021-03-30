@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="inputAnchor" prefHeight="353.0" prefWidth="816.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Input.inputController">
+   <children>
+      <TextField fx:id="studentName" layoutX="72.0" layoutY="94.0" promptText="Enter Full Name" />
+      <RadioButton fx:id="freshmanRadio" layoutX="72.0" layoutY="135.0" mnemonicParsing="false" text="Freshman" toggleGroup="$yearLevelChoice">
+         <toggleGroup><ToggleGroup fx:id="yearLevelChoice" /></toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="sophomoreRadio" layoutX="72.0" layoutY="164.0" mnemonicParsing="false" text="Sophomore" toggleGroup="$yearLevelChoice" />
+      <RadioButton fx:id="juniorRadio" layoutX="72.0" layoutY="192.0" mnemonicParsing="false" text="Junior" toggleGroup="$yearLevelChoice" />
+      <RadioButton fx:id="seniorRadio" layoutX="72.0" layoutY="222.0" mnemonicParsing="false" text="Senior" toggleGroup="$yearLevelChoice" />
+      <ChoiceBox fx:id="programChoice" layoutX="279.0" layoutY="94.0" prefHeight="25.0" prefWidth="213.0"  />
+      <Button layoutX="305.0" layoutY="218.0" mnemonicParsing="false" onAction="#getStudentData" prefHeight="25.0" prefWidth="107.0" text="Register" />
+      <Button layoutX="305.0" layoutY="218.0" mnemonicParsing="false" onAction="#getStudentData" prefHeight="25.0" prefWidth="107.0" text="Register" />
+      <Button layoutX="305.0" layoutY="279.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="107.0" text="back" />
+      <Label layoutX="58.0" layoutY="14.0" prefHeight="75.0" prefWidth="427.0" text="Register a Student">
+         <font>
+            <Font name="Consolas" size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="courseChoice1" layoutX="576.0" layoutY="94.0" prefHeight="25.0" prefWidth="91.0" promptText="Enter Course 1" />
+      <TextField fx:id="courseChoice2" layoutX="576.0" layoutY="131.0" prefHeight="25.0" prefWidth="91.0" promptText="Enter Course 2" />
+      <TextField fx:id="courseChoice3" layoutX="576.0" layoutY="169.0" prefHeight="25.0" prefWidth="91.0" promptText="Enter Course 3" />
+      <TextField fx:id="courseChoice4" layoutX="576.0" layoutY="206.0" prefHeight="25.0" prefWidth="91.0" promptText="Enter Course 4" />
+
+   </children>
+</AnchorPane>
