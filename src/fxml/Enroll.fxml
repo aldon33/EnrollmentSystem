@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="81.0" layoutY="46.0" prefHeight="26.0" prefWidth="227.0" style="-fx-background-radius: 1em;" />
+      <Text layoutX="35.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEARCH:" />
+      <ListView layoutX="32.0" layoutY="93.0" prefHeight="364.0" prefWidth="461.0" style="-fx-background-radius: 1em;" />
+      <ListView layoutX="532.0" layoutY="36.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 1em;" />
+      <Text layoutX="535.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subjects:" />
+      <Button layoutX="522.0" layoutY="265.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="200.0" text="Add Subjects" />
+      <Button layoutX="522.0" layoutY="307.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="200.0" text="Delete Subject" />
+      <Button layoutX="522.0" layoutY="351.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="200.0" text="Swap Subject" />
+      <Button layoutX="522.0" layoutY="396.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="200.0" text="Back" />
+   </children>
+</AnchorPane>

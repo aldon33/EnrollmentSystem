@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="717.0" style="-fx-background-color: #f5f2e9;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CPA2.StartController">
+   <children>
+      <Text fill="#048300" layoutX="230.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enrolly" wrappingWidth="255.99609375">
+         <font>
+            <Font name="Segoe UI Bold" size="76.0" />
+         </font>
+      </Text>
+      <Text fill="#2cc33b" layoutX="213.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It all starts with a click." textAlignment="RIGHT">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Text>
+      <Circle fx:id="circle2" fill="#15b2eb00" layoutX="357.0" layoutY="122.0" radius="75.0" stroke="#2cc33b" strokeMiterLimit="15.0" strokeType="INSIDE" strokeWidth="10.0" style="-fx-stroke-dash-array: 25;" />
+      <Text fill="#048300" layoutX="333.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E" wrappingWidth="58.13671875">
+         <font>
+            <Font name="Segoe UI Bold" size="87.0" />
+         </font>
+      </Text>
+      <Button fx:id="start_button" layoutX="198.0" layoutY="315.0" mnemonicParsing="false" onAction="#Start" prefHeight="73.0" prefWidth="330.0" style="-fx-background-radius: 1em; -fx-background-color: #048300;" text="Get Started" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="30.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="40.0" fitWidth="58.0" layoutX="451.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/63929/Downloads/LBYCPD2/Initial%20Prototype/imgs/download.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

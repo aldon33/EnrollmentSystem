@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="453.0" style="-fx-border-radius: 1em;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CPA2.RegisterController">
+   <children>
+      <Text layoutX="13.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-up" wrappingWidth="81.783203125">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#796c6c" layoutX="14.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It's just simple">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fname_field" layoutX="10.0" layoutY="62.0" prefHeight="33.0" prefWidth="134.0" promptText="First Name" style="-fx-background-radius: 1em;" />
+      <TextField fx:id="lname_field" layoutX="147.0" layoutY="62.0" prefHeight="33.0" prefWidth="160.0" promptText="Last Name" style="-fx-background-radius: 1em;" />
+      <TextField fx:id="email_field" layoutX="9.0" layoutY="140.0" prefHeight="33.0" prefWidth="435.0" promptText="Email" style="-fx-background-radius: 1em;" />
+      <TextField fx:id="newp_field" layoutX="9.0" layoutY="181.0" prefHeight="33.0" prefWidth="435.0" promptText="New Password" style="-fx-background-radius: 1em;" />
+      <TextField fx:id="rp_field" layoutX="9.0" layoutY="223.0" prefHeight="33.0" prefWidth="435.0" promptText="Re-enter Password" style="-fx-background-radius: 1em;" />
+      <TextField fx:id="IDnumber_field" layoutX="9.0" layoutY="101.0" prefHeight="33.0" prefWidth="306.0" promptText="ID number" style="-fx-background-radius: 1em;" />
+      <Button fx:id="sign_up_button" layoutX="46.0" layoutY="265.0" mnemonicParsing="false" onAction="#getText" prefHeight="51.0" prefWidth="364.0" style="-fx-background-radius: 1em; -fx-background-color: linear-gradient(to right top, #009b14, #008e11, #00820e, #00750c, #006909);" text="SIGN-UP" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="386.0" layoutY="14.0" mnemonicParsing="false" onAction="#close_function1" style="-fx-background-color: #ffff;" />
+   </children>
+</AnchorPane>

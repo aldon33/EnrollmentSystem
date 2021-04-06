@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="717.0" style="-fx-background-color: #2cc33b;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CPA2.LoginController">
+   <children>
+      <ImageView fitHeight="298.0" fitWidth="495.0" layoutX="-50.0" layoutY="-57.0" opacity="0.27" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/63929/Downloads/LBYCPD2/Initial%20Prototype/imgs/1200px-De_La_Salle_University_Seal.svg%20(1).png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="134.0" layoutY="195.0" prefHeight="249.0" prefWidth="449.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 1em;">
+         <children>
+            <TextField fx:id="password_field" layoutX="61.0" layoutY="123.0" prefHeight="46.0" prefWidth="355.0" promptText="PASSWORD" style="-fx-background-radius: 1em;" />
+            <TextField fx:id="ID_numberfield" layoutX="61.0" layoutY="64.0" prefHeight="46.0" prefWidth="355.0" promptText="ID NUMBER" style="-fx-background-radius: 1em;" />
+            <Button fx:id="login_button" layoutX="61.0" layoutY="179.0" mnemonicParsing="false" onAction="#load_file" prefHeight="46.0" prefWidth="355.0" style="-fx-background-radius: 1em; -fx-background-color: #048300;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="19.0" />
+               </font></Button>
+            <ImageView fitHeight="46.0" fitWidth="55.0" layoutX="14.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imgs/icons8-user-male-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="38.0" layoutX="18.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../imgs/icons8-password-window-32.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fx:id="forget" fill="#a5c9a1" layoutX="141.0" layoutY="460.0" onMouseClicked="#click1" strokeType="OUTSIDE" strokeWidth="0.0" text="Forget password?">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="signup" fill="#a5c9a1" layoutX="372.0" layoutY="460.0" onMouseClicked="#click" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account? Sign-up">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enrolly" wrappingWidth="255.99609375">
+         <font>
+            <Font name="Segoe UI Bold" size="76.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="171.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome ">
+         <font>
+            <Font name="Segoe UI Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="325.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to">
+         <font>
+            <Font name="Segoe UI" size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
